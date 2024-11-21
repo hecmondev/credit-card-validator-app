@@ -24,7 +24,7 @@ const App = (): React.ReactElement => {
     try {
       const { status, data } = await axios({
         method: 'post',
-        url: 'https://credit-card-validator-api-production.up.railway.app',
+        url: import.meta.env.VITE_API,
         data: model,
       });
 

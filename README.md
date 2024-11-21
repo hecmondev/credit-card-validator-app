@@ -7,5 +7,5 @@ $ git clone <repo>
 $ cd credit-card-validator-app
 $ pnpm install
 $ pnpm build
-$ pnpm start
+$ pnpm dev
 ```
