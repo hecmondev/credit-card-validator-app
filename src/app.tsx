@@ -4,7 +4,7 @@ import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 import axios, { HttpStatusCode } from 'axios';
 import React, { useState } from 'react';
-import './App.css';
+import './app.css';
 import reactLogo from './assets/react.svg';
 import ApiResponse from './components/api-response/api-response';
 import CreditCardForm from './components/credit-card-form/credit-card-form';
